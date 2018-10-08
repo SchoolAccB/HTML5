@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Opdr32</title>
 
@@ -9,7 +10,10 @@
             text-align: center;
         }
         table {
-            width: 25%;
+            width: 33%;
+        }
+        th {
+            text-align: left;
         }
     </style>
 
@@ -42,17 +46,147 @@
 
 <table border="1">
     <tr>
-        <th> Header </th>
-        <th> Header </th>
-        <th> Header </th>
-        <th> Header </th>
+        <th colspan="1"> Header </th>
+        <th colspan="1"> Header </th>
+        <th colspan="1"> Header </th>
+        <th colspan="1"> Header </th>
     </tr>
     <tr>
         <td rowspan="6"> You can span <br> down. </td>
         <td colspan="3"> You can span across. </td>
+    </tr>
+    <tr>
         <td colspan="2"> Its like a puzzle. </td>
+        <td rowspan="4"> Over <br> here. </td>
+    </tr>
+    <tr>
+        <td rowspan="3"> This <br> way. </td>
+        <td> That way.</td>
+    </tr>
+    <tr>
+        <td rowspan="2"> Where am <br> I? </td>
     </tr>
 </table>
+
+<br><br>
+
+<table border="1">
+    <tr>
+        <th colspan="10">Print Report</th>
+    </tr>
+    <tr>
+        <th> SL.No </th>
+        <th> Column 1 </th>
+        <th> Column 2 </th>
+        <th> 100 </th>
+        <th> 500 </th>
+        <th> 200 </th>
+        <th> 600 </th>
+        <th> 300 </th>
+        <th> 400 </th>
+        <th> Total </th>
+    </tr>
+    <tr>
+        <td> 1 </td>
+        <td rowspan="3"> A </td>
+        <td> bar </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 2 </td>
+    </tr>
+    <tr>
+        <td> 2 </td>
+        <td> baz </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+    </tr>
+    <tr>
+        <td> 3 </td>
+        <td> foo </td>
+        <td> 3 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 4 </td>
+    </tr>
+    <tr>
+        <td colspan="3"> Total A </td>
+        <td> 3 </td>
+        <td> 0 </td>
+        <td> 2 </td>
+        <td> 0 </td>
+        <td> 2 </td>
+        <td> 0 </td>
+        <td> 7 </td>
+    </tr>
+    <tr>
+        <td> 4 </td>
+        <td rowspan="3"> B </td>
+        <td> baz </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+    </tr>
+    <tr>
+        <td> 5 </td>
+        <td> cad </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 1 </td>
+        <td> 3 </td>
+    </tr>
+    <tr>
+        <td> 6 </td>
+        <td> qud </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 0 </td>
+        <td> 1 </td>
+        <td> 2 </td>
+        <td> 5 </td>
+    </tr>
+    <tr>
+        <td colspan="3"> Total B </td>
+        <td> 2 </td>
+        <td> 0 </td>
+        <td> 2 </td>
+        <td> 0 </td>
+        <td> 2 </td>
+        <td> 3 </td>
+        <td> 9 </td>
+    </tr>
+    <tr>
+        <td colspan="3"> Grand Total </td>
+        <td> 5 </td>
+        <td> 0 </td>
+        <td> 4 </td>
+        <td> 0 </td>
+        <td> 4 </td>
+        <td> 3 </td>
+        <td> 16 </td>
+    </tr>
+
+</table>
+
 
 </body>
 </html>
