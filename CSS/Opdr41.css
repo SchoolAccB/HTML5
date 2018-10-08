@@ -1,0 +1,40 @@
+nav {
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding: 10px;
+    display: inline-block;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+article {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+div.wrapper {
+    width: 1000px;
+    margin: auto;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 49%;
+}
+td, th {
+    padding: 15px;
+    border: 1px solid black;
+}
+th.groen {
+    background-color: #ccffcc;
+}
+th.blauw {
+    background-color: #ccffff;
+}
