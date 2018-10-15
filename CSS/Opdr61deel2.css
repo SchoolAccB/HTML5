@@ -1,0 +1,44 @@
+body {
+    font-family: Niramit, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(251, 235, 235);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #ffe3e3;
+}
+div#wrapper, footer {
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(251, 235, 235);
+}
+
+form ul {
+    list-style-type: none;
+    padding: 0;
+}
+form ul li {
+    padding: 10px;
+}
+form ul li input {
+    position: absolute;
+    left: 150px;
+}
